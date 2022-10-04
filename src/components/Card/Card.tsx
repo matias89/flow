@@ -36,8 +36,8 @@ const Card = ({
             {dt && <p><b>{formatDay(dt)}</b></p>}
             <p><b>Mín</b>: {min}º C</p>
             <p><b>Máx</b>: {max}º C</p>
-            <p><b>Amanecer</b>: {formatDate(sunrise)}</p>
-            <p><b>Ocaso</b>: {formatDate(sunset)}</p>
+            <p><b>Amanece</b>: {formatDate(sunrise)}</p>
+            <p><b>Anochece</b>: {formatDate(sunset)}</p>
             <p><b>Presión</b>: {pressure} hp</p>
         </div>
     </div>

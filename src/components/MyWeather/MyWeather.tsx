@@ -46,6 +46,9 @@ const MyWeather = () => {
                 const { coords: { latitude, longitude }} = position;
                 getWeather(latitude, longitude);
                 getForecast(latitude, longitude);
+            }, (e) => {
+                setLoadingForecast(false);
+                setLoadingToday(false);
             });
         } else {
             getWeather();
