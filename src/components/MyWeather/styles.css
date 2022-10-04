@@ -1,0 +1,12 @@
+.forecast-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .forecast-container {
+        flex-wrap: wrap;
+    }
+    
+}
